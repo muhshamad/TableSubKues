@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="tableSubKues1" min="-2" pref="663" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField1" min="-2" pref="218" max="-2" attributes="0"/>
+                          <Component id="jTextField2" min="-2" pref="218" max="-2" attributes="0"/>
+                          <Component id="jTextField3" min="-2" pref="218" max="-2" attributes="0"/>
+                          <Component id="jTextField4" min="-2" pref="218" max="-2" attributes="0"/>
+                          <Component id="jTextField5" min="-2" pref="218" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="addKab" alignment="1" max="32767" attributes="0"/>
+                          <Component id="addProv" alignment="1" max="32767" attributes="0"/>
+                          <Component id="addDesa" max="32767" attributes="0"/>
+                          <Component id="addNBS" max="32767" attributes="0"/>
+                          <Component id="addKec" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="nksRow" alignment="0" max="32767" attributes="0"/>
+                  <Component id="respRow" alignment="0" max="32767" attributes="0"/>
+                  <Component id="flagRow" alignment="0" max="32767" attributes="0"/>
+                  <Component id="statusRow" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="addTableEntry" min="-2" pref="134" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="addCombo" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tableSubKues1" alignment="0" pref="534" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="addProv" pref="32" max="32767" attributes="0"/>
+                  <Component id="jTextField1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="addKab" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField3" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="addKec" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField4" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="addDesa" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField5" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="addNBS" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="addCombo" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="nksRow" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="respRow" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="flagRow" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="statusRow" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="addTableEntry" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="panel.TableSubKues" name="tableSubKues1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5">
+    </Component>
+    <Component class="javax.swing.JButton" name="addProv">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prov"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addProvActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="addKab">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kab"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addKec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kec"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addDesa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addNBS">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NBS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nksRow">
+    </Component>
+    <Component class="javax.swing.JTextField" name="respRow">
+    </Component>
+    <Component class="javax.swing.JTextField" name="flagRow">
+    </Component>
+    <Component class="javax.swing.JTextField" name="statusRow">
+    </Component>
+    <Component class="javax.swing.JButton" name="addTableEntry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tambah"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addCombo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
